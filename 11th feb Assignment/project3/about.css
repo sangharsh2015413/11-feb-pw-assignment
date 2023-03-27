@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(233, 233, 233);
+    margin-left: 150px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.navbaar,.page{
+    display: flex;
+}
+
+ .page {
+    gap: 15px;
+    list-style: none;
+    font-weight: 900;
+    margin-left: 60%;
+    font-size: 25px;
+}
+
+.page li a{
+    color: black;
+    text-decoration: none;
+}
+
+.page li a:hover{
+    color: rgb(11, 184, 11);
+}
+
+
+.main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main h1{
+    color: rgb(11, 184, 11);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main p{
+    color:rgb(85, 84, 84);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn button{
+    color: rgb(11, 184, 11);
+    font-size: 20px;
+    font-weight: 800;
+    background-color:rgb(233, 233, 233);
+
+}
+button{
+    margin: 10px;
+    width: 150px;
+    height: 80px;
+    border-radius: 15px;
+    border: 2px solid grey;
+}

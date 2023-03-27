@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(233, 233, 233);
+   
+}
+
+.logo{
+    height: 50px;
+}
+
+.navbaar,.page{
+    display: flex;
+    margin-left: 150px;
+}
+
+ .page {
+    gap: 15px;
+    list-style: none;
+    font-weight: 900;
+    margin-left: 60%;
+    font-size: 25px;
+}
+
+.page li a{
+    color: black;
+    text-decoration: none;
+}
+
+.page li a:hover{
+    color: rgb(11, 184, 11);
+}
+
+ form{
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+form h1{
+    text-align: center;
+}
+
+form label{
+    font-weight: bold;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+textarea{
+    resize: none;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(50, 121, 50);
+    height: 30px;
+    color: white;
+}
